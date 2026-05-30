@@ -1,0 +1,6 @@
+{
+  "name": "AuraSight",
+  "description": "Asisten visual berbasis AI untuk membantu tunanetra dan low vision mendeteksi lingkungan sekitar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

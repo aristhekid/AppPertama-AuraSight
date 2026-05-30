@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Eye Outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 24,54 C 34,36 46,30 54,30 C 62,30 74,36 84,54 C 74,72 62,78 54,78 C 46,78 34,72 24,54 Z" />
+
+    <!-- Iris / Pupil -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M 54,44 A 10,10 0 1,0 54,64 A 10,10 0 1,0 54,44 Z" />
+
+    <!-- Innermost reflection spot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 58,47 A 3,3 0 1,0 58,53 A 3,3 0 1,0 58,47 Z" />
+
+    <!-- Radar Wave 1 (Inner loop) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 38,22 C 48,15 60,15 70,22" />
+
+    <!-- Radar Wave 2 (Outer loop) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 28,12 C 44,2 64,2 80,12" />
+        
+</vector>
